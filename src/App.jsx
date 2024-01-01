@@ -1,5 +1,13 @@
+import Navbar from './components/Navbar/Navbar';
+
 const App = () => {
-   return <div className='bg-red-400'>App</div>;
+   return (
+      <div>
+         <div>
+            <Navbar />
+         </div>
+      </div>
+   );
 };
 
 export default App;
