@@ -28,6 +28,7 @@ const App = () => {
             <TopProducts />
             <Banner />
             <Subscribe />
+            <Products />
          </div>
       </div>
    );
