@@ -101,7 +101,7 @@ const Testimonial = () => {
                                  <p className='text-xs to-gray-500'>
                                     {data.text}
                                  </p>
-                                 <h1 className='text-xl font-bold text-black/80 dark:text-light'>
+                                 <h1 className='text-xl font-bold text-black/80 dark:text-white'>
                                     {data.name}
                                  </h1>
                               </div>
