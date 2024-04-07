@@ -10,21 +10,21 @@ const ImageList = [
       img: Image1,
       title: "Upto 50% off on all Men's Wear",
       description:
-         'lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+         'From Tshirts to jeans and denims you can find all the mens dresses. Browse through different categories and choose the best on with perfect size. Easy refundable',
    },
    {
       id: 2,
       img: Image2,
       title: "30% off on all Women's Wear",
       description:
-         "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+         'Get the best deals on womens luxurius items and dresses. Enjoy upto 30% off on selected items. All sizes available',
    },
    {
       id: 3,
       img: Image3,
       title: '70% off on all Products Sale',
       description:
-         'consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+         'Get the most discount on selected best selling products. Browse and choose the best one for you. 10+ sizes available',
    },
 ];
 
@@ -66,7 +66,7 @@ const Hero = ({ handleOrderPopup }) => {
                               data-aos='fade-up'
                               data-aos-duration='500'
                               data-aos-delay='100'
-                              className='text-sm'
+                              className='text-xl'
                            >
                               {data.description}
                            </p>
@@ -93,7 +93,7 @@ const Hero = ({ handleOrderPopup }) => {
                               <img
                                  src={data.img}
                                  alt=''
-                                 className='w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto'
+                                 className='w-[400px] h-[400px] sm:h-[450px] sm:w-[450px] sm:scale-125 lg:scale-125 object-contain mx-auto'
                               />
                            </div>
                         </div>
