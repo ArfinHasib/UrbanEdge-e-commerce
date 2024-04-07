@@ -2,7 +2,7 @@
 
 ## Tech Stack
 
-### NextJS - Vite - Tailwind - Typescript
+### React - Vite - Tailwind - Typescript
 
 <br/>
 
